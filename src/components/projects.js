@@ -9,12 +9,12 @@ class Projects extends React.Component{
             {
                 title: 'MicroBets',
                 gif: '',
-                description: ''
+                description: 'A mobile gambling platform built with React-Native.'
             },
             {
                 title: 'The Fifteen Puzzle',
                 gif: '',
-                description: '',
+                description: 'A sliding ',
             },
             {
                 title: 'What Movie?',
@@ -28,7 +28,7 @@ class Projects extends React.Component{
     render(){
         let mapped = this.state.ps.map(p => <Project {...p}/> )
         return(
-            <div id="Projects">
+            <div >
                 <SEO title="projects" />
                 <h2>Featured Projects</h2>
                 {mapped}

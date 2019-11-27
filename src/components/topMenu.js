@@ -7,7 +7,7 @@ import { Link } from "gatsby"
 
 class TopMenu extends React.Component{
     state ={
-        scrolled: false
+        scrolled: true
     }
 
   componentDidMount(){
@@ -28,16 +28,16 @@ class TopMenu extends React.Component{
                 <div>
                     <div style={{ background: `rgb(72,72,72)`, width: '100%' }}>
                         <ul style={{display:'flex', justifyContent:'space-around', }}>
-                            <li style={{display:'flex', padding:'6px 8px'}}> 
+                            <li style={{display:'flex', }}> 
                                 <a style={{color: 'rgb(255, 255, 255)',  textDecoration: 'none', fontSize: '13px'}} href="#Home"> Home </a>
                             </li>
-                            <li style={{display:'flex', padding:'6px 8px'}}>
+                            <li style={{display:'flex', }}>
                                 <a style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px'}} href="#Projects">Projects </a>
                             </li>
-                            <li style={{display:'flex', padding:'6px 8px'}}>
+                            <li style={{display:'flex', }}>
                                 <a style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="#Contact">Contact Me </a>
                             </li>
-                            <li style={{display:'flex', padding:'6px 8px'}}>
+                            <li style={{display:'flex', }}>
                                 <Link to="/resume" style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }}>
                                     Resume 
                                 </Link>
@@ -51,17 +51,17 @@ class TopMenu extends React.Component{
                 <div>
                     <div style={{ background: `rgb(72,72,72)`, width: '100%', position:'fixed', top: 0}}>
                         <ul style={{ display: 'flex', justifyContent: 'space-around', }}>
-                            <li style={{ display: 'flex', padding: '6px' }}>
-                                <a style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="#Home"> Home </a>
+                            <li style={{ display: 'flex' }}>
+                                <a style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="#Home"> Home </a>
                             </li>
-                            <li style={{ display: 'flex', padding: '6px' }}>
-                                <a style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="#Projects">Projects </a>
+                            <li style={{ display: 'flex' }}>
+                                <a style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="#Projects">Projects </a>
                             </li>
-                            <li style={{ display: 'flex', padding: '6px' }}>
-                                <a style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="#Contact">Contact Me </a>
+                            <li style={{ display: 'flex' }}>
+                                <a style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="#Contact">Contact Me </a>
                             </li>
-                            <li style={{ display: 'flex', padding: '6px' }}>
-                                <Link to="/resume" style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }}>
+                            <li style={{ display: 'flex' }}>
+                                <Link to="/resume" style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }}>
                                     Resume
                                 </Link>
                             </li>
