@@ -9,32 +9,32 @@ const Skills = () => (
             <div style={{flexDirection: 'column'}}>
                 <p style={{fontWeight: 'bolder'}}>SKILLS</p>
             </div>
-            <div style={{flexDirection: 'column'}}>
-                <p style={{fontWeight: 'bold'}}>LANGUAGES</p>
+            <div style={{flexDirection: 'column', color: 'rgb(72,72,72)'}}>
+                <p style={{fontWeight: 'bold', color: 'rgb(17,17,17)'}}>LANGUAGES</p>
                 <p>Javascript (ES6)</p>
                 <p>Ruby</p>
                 <p>HTML</p>
                 <p>CSS</p>
                 <p>SQL</p>
             </div>
-            <div style={{flexDirection: 'column'}}>
-                <p style={{fontWeight: 'bold'}}>FRAMEWORKS</p>
+            <div style={{flexDirection: 'column', color: 'rgb(72,72,72)'}}>
+                <p style={{fontWeight: 'bold', color: 'rgb(17,17,17)'}}>FRAMEWORKS</p>
                 <p>React</p>
                 <p>React Native</p>
                 <p>Rails</p>
                 <p>Gatsby</p>
                 <p>Next.js</p>
             </div>
-            <div style={{flexDirection: 'column'}}>
-                <p style={{fontWeight: 'bold'}}>TOOLS</p>
+            <div style={{flexDirection: 'column', color: 'rgb(72,72,72)'}}>
+                <p style={{fontWeight: 'bold', color: 'rgb(17,17,17)'}}>TOOLS</p>
                 <p>{`Git & Github`}</p>
                 <p>Chrome DevTools</p>
                 <p>Postman</p>
                 <p>Postgresql</p>
                 <p>SQLite</p>
             </div>
-            <div style={{flexDirection: 'column'}}>
-                <p style={{fontWeight: 'bold'}}>DESIGN</p>
+            <div style={{flexDirection: 'column', color: 'rgb(72,72,72)'}}>
+                <p style={{fontWeight: 'bold', color: 'rgb(17,17,17)'}}>DESIGN</p>
                 <p>Marvel</p>
                 <p>Sketch</p>
                 <p>Wireframing</p>

@@ -8,18 +8,21 @@ class Projects extends React.Component{
         ps:[
             {
                 title: 'MicroBets',
-                gif: '',
-                description: 'A mobile gambling platform built with React-Native.'
+                url: 'https://www.youtube.com/embed/w5o-zqII6eQ',
+                technologies: 'React-Native • Ruby on Rails • Redux • The Rundown API',
+                description: 'A mobile sports-gambling platform that utilizes a swipe based user interface to introduce users to gamblers and limit the spending of experienced gamblers.'
             },
             {
                 title: 'The Fifteen Puzzle',
-                gif: '',
-                description: 'A sliding ',
+                url: 'https://www.youtube.com/embed/w5o-zqII6eQ',
+                technologies: 'Javascript • Ruby on Rails • Custom CSS',
+                description: 'A sliding puzzle that trains spatial awareness and cognitive skills, with fifteen randomly arranged tiles and one empty tile',
             },
             {
                 title: 'What Movie?',
-                gif: '',
-                description: '',
+                url: 'https://www.youtube.com/embed/w5o-zqII6eQ',
+                technologies: 'Ruby on Rails • Semantic UI',
+                description: 'A game consisting of five random movie quotes and four possible choices for each quote, testing cinematic knowledge.',
             }
         ]
     }
@@ -31,7 +34,9 @@ class Projects extends React.Component{
             <div >
                 <SEO title="projects" />
                 <h2>Featured Projects</h2>
-                {mapped}
+                <div>
+                    {mapped}
+                </div>
             </div>
         )
     }
