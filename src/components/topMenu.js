@@ -47,7 +47,7 @@ class TopMenu extends React.Component{
         }else{
             return (
                 <div>
-                    <div style={{ background: `rgb(72,72,72)`, width: '100%', position:'fixed', top: 0}}>
+                    <div style={{ background: `rgb(72,72,72)`, width: '100%', position:'fixed', paddingTop: '1vw', top: 0}}>
                         <ul style={{ display: 'flex', justifyContent: 'space-around', marginBottom: 0}}>
                             <li style={{ display: 'flex' }}>
                                 <a style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="#Home"> Home </a>
