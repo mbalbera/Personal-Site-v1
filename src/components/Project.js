@@ -2,8 +2,6 @@ import React from 'react'
 import SEO from "./seo"
 import Video from "./video"
 
-
-
 const Project = (props) => (
     <div>
         <SEO title={props.title} />

@@ -7,7 +7,7 @@ const Skills = () => (
         <SEO title='skills' />
         <div style={{display: 'flex', justifyContent: 'space-around'}}>
             <div style={{flexDirection: 'column'}}>
-                <p style={{fontWeight: 'bolder'}}>SKILLS</p>
+                <p style={{fontWeight: 'bolder', color: 'blue'}}>SKILLS</p>
             </div>
             <div style={{flexDirection: 'column', color: 'rgb(72,72,72)'}}>
                 <p style={{fontWeight: 'bold', color: 'rgb(17,17,17)'}}>LANGUAGES</p>

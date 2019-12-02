@@ -14,7 +14,7 @@ class IndexPage extends React.Component{
     return(
       <Layout>
         <SEO title="Home" />
-        <div id="Home" style={{paddingBottom:'6vw'}}>
+        <div id="Home" style={{paddingBottom:'3vw', paddingTop:'3vw'}}>
           <p>Hi my name is </p>
           <h1>Mason Balbera.</h1>
           <h2>I build applications for the internet and mobile platforms.</h2>

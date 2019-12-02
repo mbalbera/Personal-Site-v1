@@ -37,10 +37,8 @@ class TopMenu extends React.Component{
                             <li style={{display:'flex', }}>
                                 <a style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="#Contact">Contact Me </a>
                             </li>
-                            <li style={{display:'flex', }}>
-                                <Link to="/resume" style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }}>
-                                    Resume 
-                                </Link>
+                            <li style={{ display: 'flex' }}>
+                                <a style={{ verticalAlign: 'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="https://drive.google.com/file/d/1n-sDjof1IFBd9TT13Hc0PEyxTdJZ-sJz/view?usp=sharing" target="_blank"> Resume </a>
                             </li>
                         </ul>
                     </div>
@@ -61,10 +59,9 @@ class TopMenu extends React.Component{
                                 <a style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="#Contact">Contact Me </a>
                             </li>
                             <li style={{ display: 'flex' }}>
-                                <Link to="/resume" style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }}>
-                                    Resume
-                                </Link>
+                                <a style={{ verticalAlign: 'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="https://drive.google.com/file/d/1n-sDjof1IFBd9TT13Hc0PEyxTdJZ-sJz/view?usp=sharing" target="_blank"> Resume </a>
                             </li>
+                           
                         </ul>
                     </div>
                 </div>
