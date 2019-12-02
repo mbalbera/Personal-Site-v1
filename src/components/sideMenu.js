@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 // import { FontAwesomeIcon } from '@fontawesome/react-fontawesome'
 // import { faLinkedin, faMedium, faGithub, } from '@fontawesome/free-brands-svg-icons'
 
