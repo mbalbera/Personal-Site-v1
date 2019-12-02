@@ -7,10 +7,10 @@ const Project = (props) => (
         <SEO title={props.title} />
         <h4>{props.title}</h4>
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-            <Video {...props} />
+            <Video {...props}/>
             <div style={{ paddingLeft: '2vw' }}>
-                <h6 style={{}}>{props.description}</h6>
-                <h6 style={{ color: 'rgb(88,88,88)' }}>{props.technologies}</h6>
+            <h6 style={{}}>{props.description}</h6>
+            <h6 style={{color: 'rgb(88,88,88)'}}>{props.technologies}</h6>
             </div>
         </div>
     </div>
