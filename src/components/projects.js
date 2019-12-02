@@ -1,5 +1,5 @@
 import React from 'react'
-import Project from './project'
+import Project from './Project'
 import SEO from "./seo"
 
 class Projects extends React.Component{
