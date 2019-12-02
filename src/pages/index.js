@@ -20,7 +20,7 @@ class IndexPage extends React.Component{
           <h2>I build applications for the internet and mobile platforms.</h2>
           <p>Full stack web and mobile developer with an eagerness to build and create technology.  With experience in Ruby on Rails, JavaScript, and React, I discovered web development through my education and my curiosity to learn. I bring strong skills in communicating complex concepts, understanding the needs of individual consumers and businesses, as well developing solutions to meet those needs.</p>
         </div>
-        <Divider id={'Contact'}/>
+        <Divider id={'Background'}/>
         <div style={{display:'flex', justifyContent:'space-around'}}>
           <div style={{ width:'66%', marginBottom: `1.45rem`, paddingBottom: '6vw', paddingRight: '2vw' }}>
             <h2>Background</h2>
@@ -28,10 +28,11 @@ class IndexPage extends React.Component{
               I recently graduated from The Flatiron School’s immersive program in New York City. As a software engineer, I enjoy bridging the gap between engineering and creativity — combining my technical knowledge with my drive to solve problems in new and innovative ways to solve complex problems. My goal is to learn as much as I can and create cool innovative applications that are efficient, user friendly and adaptable. When I'm not in front of a computer screen, I'm probably skiing, playing ice hockey, or hanging out with my friends and family.
             </p>
           </div>
-          <div style={{width:'33%'}}>
+        </div>
+        <Divider id={'Contact'} />
+          <div style={{ marginBottom: `1.45rem`, paddingBottom: '6vw', paddingRight: '8vw', paddingLeft: '8w'}}>
             <Contact />
           </div>
-        </div>
         <Divider id={'Projects'}/>
         <div style={{paddingBottom:'6vw'}}>
           <Projects/>

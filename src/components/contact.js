@@ -30,7 +30,7 @@ class Contact extends React.Component{
             <div  style={{width:'auto'}}>
                 <SEO title='contact' />
                 <h2 style={{textAlign:'center'}}>Contact Me</h2>
-                <div style={{ borderStyle: 'solid', borderRadius: '10%', justifyContent:'center' }}>
+                <div style={{ borderStyle: 'solid', borderRadius: '15%', justifyContent:'center' }}>
                     {/* <div style={{ display: 'flex', justifyContent: 'space-around', paddingTop: '3vw', paddingBottom:'3vw'}}> */}
                         <div style={{ width:'auto', borderRadius: '10%', display: 'flex', justifyContent: 'center', paddingTop:'2vw'}}>
                         <input name="name" onChange={this.handleChange} placeholder="Name" value={this.state.name} type="text"/>
