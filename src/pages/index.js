@@ -29,10 +29,6 @@ class IndexPage extends React.Component{
             </p>
           </div>
         </div>
-        <Divider id={'Contact'} />
-          <div style={{ marginBottom: `1.45rem`, paddingBottom: '6vw', paddingRight: '8vw', paddingLeft: '8w'}}>
-            <Contact />
-          </div>
         <Divider id={'Projects'}/>
         <div style={{paddingBottom:'6vw'}}>
           <Projects/>
@@ -40,6 +36,10 @@ class IndexPage extends React.Component{
         <Divider />
         <div style={{paddingBottom:'6vw'}}>
           <Skills/>
+        </div>
+        <Divider id={'Contact'} />
+        <div style={{ marginBottom: `1.45rem`, paddingBottom: '6vw', paddingRight: '8vw', paddingLeft: '8w' }}>
+          <Contact />
         </div>
         <Divider />
       </Layout>

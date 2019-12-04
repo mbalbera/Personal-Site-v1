@@ -29,13 +29,13 @@ class TopMenu extends React.Component{
                     <div style={{ background: `rgb(72,72,72)`, width: '100%' }}>
                         <ul style={{display:'flex', justifyContent:'space-around' }}>
                             <li style={{display:'flex', }}> 
-                                <a style={{color: 'rgb(255, 255, 255)',  textDecoration: 'none', fontSize: '13px'}} href="#Home"> Home </a>
+                                <Link style={{color: 'rgb(255, 255, 255)',  textDecoration: 'none', fontSize: '13px'}} to="/#Home"> Home </Link>
                             </li>
                             <li style={{display:'flex', }}>
-                                <a style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px'}} href="#Projects">Projects </a>
+                                <Link style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px'}} to="/#Projects">Projects </Link>
                             </li>
                             <li style={{display:'flex', }}>
-                                <a style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="#Contact">Contact Me </a>
+                                <Link style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} to="/#Contact">Contact Me </Link>
                             </li>
                             <li style={{ display: 'flex' }}>
                                 <a style={{ verticalAlign: 'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="https://drive.google.com/file/d/1n-sDjof1IFBd9TT13Hc0PEyxTdJZ-sJz/view?usp=sharing" target="_blank"> Resume </a>
@@ -50,13 +50,13 @@ class TopMenu extends React.Component{
                     <div style={{ background: `rgb(72,72,72)`, width: '100%', position:'fixed', paddingTop: '1vw', top: 0}}>
                         <ul style={{ display: 'flex', justifyContent: 'space-around', marginBottom: 0}}>
                             <li style={{ display: 'flex' }}>
-                                <a style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="#Home"> Home </a>
+                                <Link style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} to="/#Home"> Home </Link>
                             </li>
                             <li style={{ display: 'flex' }}>
-                                <a style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="#Projects">Projects </a>
+                                <Link style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} to="/#Projects">Projects </Link>
                             </li>
                             <li style={{ display: 'flex' }}>
-                                <a style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="#Contact">Contact Me </a>
+                                <Link style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} to="/#Contact">Contact Me </Link>
                             </li>
                             <li style={{ display: 'flex' }}>
                                 <a style={{ verticalAlign: 'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="https://drive.google.com/file/d/1n-sDjof1IFBd9TT13Hc0PEyxTdJZ-sJz/view?usp=sharing" target="_blank"> Resume </a>
