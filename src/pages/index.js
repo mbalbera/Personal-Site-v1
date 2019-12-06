@@ -42,6 +42,11 @@ class IndexPage extends React.Component{
           <Contact />
         </div>
         <Divider />
+        <div>
+          <p style={{color:'grey', fontSize:10}}>
+            Built with Gatsby.js
+          </p>
+        </div>
       </Layout>
     )
   }
