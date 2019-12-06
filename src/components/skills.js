@@ -13,8 +13,8 @@ const Skills = () => (
                 <p style={{fontWeight: 'bold', color: 'rgb(17,17,17)'}}>LANGUAGES</p>
                 <p>Javascript (ES6)</p>
                 <p>Ruby</p>
-                <p>HTML</p>
-                <p>CSS</p>
+                <p>Python</p>
+                <p>HTML/CSS</p>
                 <p>SQL</p>
             </div>
             <div style={{flexDirection: 'column', color: 'rgb(72,72,72)'}}>
