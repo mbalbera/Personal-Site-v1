@@ -38,7 +38,7 @@ class TopMenu extends React.Component{
                                 <Link style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} to="/#Contact">Contact Me </Link>
                             </li>
                             <li style={{ display: 'flex' }}>
-                                <a style={{ verticalAlign: 'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="https://drive.google.com/file/d/1n-sDjof1IFBd9TT13Hc0PEyxTdJZ-sJz/view?usp=sharing" target="_blank"> Resume </a>
+                                <a style={{ verticalAlign: 'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="https://drive.google.com/file/d/1J_7ktkfDFo1SHXPxE8DOWzD236b10i0I/view?usp=sharing" target="_blank"> Resume </a>
                             </li>
                         </ul>
                     </div>
@@ -59,7 +59,7 @@ class TopMenu extends React.Component{
                                 <Link style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} to="/#Contact">Contact Me </Link>
                             </li>
                             <li style={{ display: 'flex' }}>
-                                <a style={{ verticalAlign: 'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="https://drive.google.com/file/d/1n-sDjof1IFBd9TT13Hc0PEyxTdJZ-sJz/view?usp=sharing" target="_blank"> Resume </a>
+                                <a style={{ verticalAlign: 'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="https://drive.google.com/file/d/1J_7ktkfDFo1SHXPxE8DOWzD236b10i0I/view?usp=sharing" target="_blank"> Resume </a>
                             </li>
                            
                         </ul>
