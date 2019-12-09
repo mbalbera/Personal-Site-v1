@@ -783,7 +783,7 @@
     "@emotion/utils" "0.11.2"
     "@emotion/weak-memoize" "0.2.4"
 
-"@emotion/core@^10.0.9":
+"@emotion/core@^10.0.14", "@emotion/core@^10.0.9":
   version "10.0.22"
   resolved "https://registry.yarnpkg.com/@emotion/core/-/core-10.0.22.tgz#2ac7bcf9b99a1979ab5b0a876fbf37ab0688b177"
   integrity sha512-7eoP6KQVUyOjAkE6y4fdlxbZRA4ILs7dqkkm6oZUJmihtHv0UBq98VgPirq9T8F9K2gKu0J/au/TpKryKMinaA==
@@ -10772,6 +10772,14 @@ react-input-autosize@^2.2.1:
   integrity sha512-jQJgYCA3S0j+cuOwzuCd1OjmBmnZLdqQdiLKRYrsMMzbjUrVDS5RvJUDwJqA7sKuksDuzFtm6hZGKFu7Mjk5aw==
   dependencies:
     prop-types "^15.5.8"
+
+react-input-switch@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-input-switch/-/react-input-switch-2.2.1.tgz#32991eaf27e6cc0fcd80eac0d3706c3bf22fd957"
+  integrity sha512-FsZXXQGN53kZQUUwsASqwBwbbYS/5hKRKvW6tsJt6u3eNimMMPvBVsRomRjUDjBo/OhiKKdnGwWxiNeegay3fw==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    "@emotion/core" "^10.0.14"
 
 react-is@16.8.5:
   version "16.8.5"

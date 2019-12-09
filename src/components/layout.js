@@ -18,7 +18,7 @@ if (typeof window !== "undefined") {
   require("smooth-scroll")('a[href*="#"]')
 }
 
-const Layout = ({ children }) => {
+const Layout = ({ children, darkMode, switchHandler }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -32,8 +32,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Header siteTitle={data.site.siteMetadata.title} />
-      {/* <TopMenu style={{ zIndex: 10 }}/> */}
-      <SideMenu style={{ zIndex: 10 }}/>
+      <SideMenu style={{ zIndex: 10 }} switchHandler={switchHandler}/>
       <div
         style={{
           margin: `0 auto`,
