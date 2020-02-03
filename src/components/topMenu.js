@@ -56,7 +56,8 @@ class TopMenu extends React.Component{
                                 <Link style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} to="/#Projects">Projects </Link>
                             </li>
                             <li style={{ display: 'flex' }}>
-                                <Link style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} to="/#Contact">Contact Me </Link>
+                                {/* <Link style={{  verticalAlign:'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} to="/#Contact">Contact Me </Link> */}
+                                <a HREF="mailto:mhbalbera@gmail.com">Click Here To Email Me!</a>                
                             </li>
                             <li style={{ display: 'flex' }}>
                                 <a style={{ verticalAlign: 'middle', color: 'rgb(255, 255, 255)', textDecoration: 'none', fontSize: '13px' }} href="https://drive.google.com/file/d/1J_7ktkfDFo1SHXPxE8DOWzD236b10i0I/view?usp=sharing" target="_blank"> Resume </a>
