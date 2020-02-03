@@ -3,6 +3,7 @@ import React from "react"
 import Projects from '../components/projects'
 import Skills from '../components/skills'
 import Contact from '../components/contact'
+import ContactBasic from '../components/contactBasic'
 import Layout from "../components/layout"
 import Intro from "../components/intro"
 import Background from "../components/background"
@@ -32,7 +33,8 @@ class IndexPage extends React.Component{
         <Divider />
           <Skills/>
         <Divider id={'Contact'} />
-          <Contact />
+          {/* <Contact /> */}
+          <ContactBasic />
         <Divider />
         <div>
           <p style={{color:'grey', fontSize:10}}>
