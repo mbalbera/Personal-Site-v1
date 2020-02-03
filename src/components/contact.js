@@ -16,6 +16,7 @@ class Contact extends React.Component{
 
     handleSubmit = (event)=> {
         event.preventDefault();
+        
         this.setState({
             name: "",
             email: "",
@@ -43,7 +44,7 @@ class Contact extends React.Component{
                         <textarea name="body" onChange={this.handleChange} rows='5' value={this.state.body} placeholder="Say Hi!"></textarea>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-around', paddingTop: '3vw', paddingBottom: '3vw'}}>
-                        <button onClick={this.handleSubmit} style={{color:'rgb(255,255,255)', background:'rgb(17,17,17)', borderRadius:'10%',}}>Send</button>
+                        {/* <button onClick={this.handleSubmit} style={{color:'rgb(255,255,255)', background:'rgb(17,17,17)', borderRadius:'10%',}}>Send</button> */}
                     </div>
                 </div>
             </div>
