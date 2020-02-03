@@ -33,8 +33,8 @@ class IndexPage extends React.Component{
         <Divider />
           <Skills/>
         <Divider id={'Contact'} />
-          {/* <Contact /> */}
           <ContactBasic />
+          {/* <Contact /> */}
         <Divider />
         <div>
           <p style={{color:'grey', fontSize:10}}>
