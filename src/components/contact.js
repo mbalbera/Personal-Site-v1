@@ -14,15 +14,15 @@ class Contact extends React.Component{
         });
     }
 
-    handleSubmit = (event)=> {
-        event.preventDefault();
+    // handleSubmit = (event)=> {
+    //     event.preventDefault();
         
-        this.setState({
-            name: "",
-            email: "",
-            body: ""
-        })
-    }
+    //     this.setState({
+    //         name: "",
+    //         email: "",
+    //         body: ""
+    //     })
+    // }
 
     render(){
     return(
