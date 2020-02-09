@@ -10,7 +10,7 @@ class Projects extends React.Component{
                 url: "https://www.youtube.com/embed/2HOkhi_Spoo",
                 technologies: "React-Native • Ruby on Rails • Redux • The Rundown API",
                 platform: "mobile",
-                description: "A mobile sports-gambling platform that utilizes a swipe based user interface to introduce users to gamblers and limit the spending of experienced gamblers."
+                description: "A mobile sports-gambling platform that utilizes a swipe based user interface to introduce users to gambling and limit the spending of experienced gamblers."
             },
             {
                 title: "The Fifteen Puzzle",
