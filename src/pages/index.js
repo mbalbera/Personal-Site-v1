@@ -1,8 +1,8 @@
 import React from "react"
 // import { Link } from "gatsby"
+// import Contact from '../components/contact'
 import Projects from '../components/projects'
 import Skills from '../components/skills'
-import Contact from '../components/contact'
 import ContactBasic from '../components/contactBasic'
 import Layout from "../components/layout"
 import Intro from "../components/intro"
@@ -13,7 +13,14 @@ import SEO from "../components/seo"
 class IndexPage extends React.Component{ 
   
   state = {
-    colorScheme: 0
+    colorScheme: 0,
+    notnotseo: 'Home'
+  }
+
+  changeTag = (e) =>{
+    this.setState({notnotseo:e})
+    //ADD THIS TO MAJOR THINGS
+    //ADD COLOR SCHEMES
   }
 
   changeColors = (e) => {
@@ -27,8 +34,7 @@ class IndexPage extends React.Component{
     }else if(e.target.value === '2'){
       console.log("colorful mode")
     }
-    let colorScheme = e.target.value
-    this.setState({colorScheme})
+    this.setState({colorScheme: e.target.value})
   }
 
   render(){
@@ -36,7 +42,7 @@ class IndexPage extends React.Component{
       <Layout changeColors={this.changeColors} colorScheme={this.state.colorScheme}>
         <Intro/>
         <Divider id={'Background'}/>
-        <Background/>
+        <Background colorScheme={this.state.colorScheme}/>
         <Divider id={'Projects'}/>
           <Projects/>
         <Divider />
@@ -50,7 +56,7 @@ class IndexPage extends React.Component{
             Built with Gatsby.js
           </p>
         </div>
-        <SEO title="Home" />
+        <SEO title={this.state.notnotseo} />
       </Layout>
     )
   }
