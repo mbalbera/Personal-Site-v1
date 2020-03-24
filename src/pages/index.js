@@ -34,7 +34,6 @@ class IndexPage extends React.Component{
   render(){
     return(
       <Layout changeColors={this.changeColors} colorScheme={this.state.colorScheme}>
-        <SEO title="Home" />
         <Intro/>
         <Divider id={'Background'}/>
         <Background/>
@@ -51,6 +50,7 @@ class IndexPage extends React.Component{
             Built with Gatsby.js
           </p>
         </div>
+        <SEO title="Home" />
       </Layout>
     )
   }
