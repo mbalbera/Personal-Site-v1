@@ -30,11 +30,6 @@ const Header = ({ siteTitle }) => (
             {siteTitle}
           </Link>
         </h1>
-        {/* <label class="switch">
-          <input type="checkbox">
-            <span class="slider round"></span>
-          </input>
-        </label> */}
       </div>
       <div
         style={{

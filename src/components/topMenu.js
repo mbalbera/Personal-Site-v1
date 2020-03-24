@@ -14,10 +14,10 @@ class TopMenu extends React.Component{
     window.addEventListener('scroll', ()=> {
       const isTop = window.scrollY > 170
       if (isTop){
-            console.log("scrolled: ", false)
+            // console.log("scrolled: ", false)
             this.setState({scrolled:false})
       }else{
-            console.log("scrolled: ", true)
+            // console.log("scrolled: ", true)
             this.setState({ scrolled: true })
       }
     })}

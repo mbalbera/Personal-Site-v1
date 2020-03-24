@@ -13,17 +13,27 @@ import SEO from "../components/seo"
 class IndexPage extends React.Component{ 
   
   state = {
-    darkMode: true
+    colorScheme: 0
   }
 
-  toggleDarkMode = () => {
-    let darkMode = !this.state.darkMode
-    this.setState({darkMode})
+  changeColors = (e) => {
+    console.log('changing colors!')
+    console.log('new color', e.target.value)
+    console.log('old color',this.state.colorScheme)
+    if(e.target.value === '0'){
+      console.log("light mode")
+    }else if(e.target.value === '1'){
+      console.log("dark mode")
+    }else if(e.target.value === '2'){
+      console.log("colorful mode")
+    }
+    let colorScheme = e.target.value
+    this.setState({colorScheme})
   }
 
   render(){
     return(
-      <Layout switchHandler={this.toggleDarkMode} darkMode={this.state.darkMode}>
+      <Layout changeColors={this.changeColors} colorScheme={this.state.colorScheme}>
         <SEO title="Home" />
         <Intro/>
         <Divider id={'Background'}/>
