@@ -21,9 +21,9 @@ const SideMenu = (props) => (
                  </a>
                 {/* <img src="https://image.flaticon.com/icons/png/512/61/61109.png" href="https://medium.com/@mhbalbera" /> */}
             </li>
-            <li style={{ display: 'flex', paddingRight: 0}}>
+            {/* <li style={{ display: 'flex', paddingRight: 0}}>
                 <p style={{ color: 'rgb(0, 0, 0)', textDecoration: 'none', fontSize: '13px' }}>Color Scheme</p>
-            </li>
+            </li> */}
             {/* <li style={{ display: 'flex',  paddingRight: 0 }}>
                 <input onChange={(e)=>props.changeColors(e)} value={props.colorScheme} type="range" id="colorScheme" name="colorScheme" min="0" max="2" />
             </li> */}

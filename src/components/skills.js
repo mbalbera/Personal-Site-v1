@@ -3,41 +3,46 @@ import SEO from './seo'
 
 
 const Skills = () => (
-    <div id="Skills">
+    <div  id="Skills">
         <SEO title='skills' />
+        <p style={{ fontWeight: 'bolder', color: 'rgb(17,17,17)', textAlign: 'center'}}>SKILLS</p>
         <div style={{display: 'flex', justifyContent: 'space-around'}}>
-            <div style={{flexDirection: 'column'}}>
-                <p style={{fontWeight: 'bolder', color: 'blue'}}>SKILLS</p>
-            </div>
             <div style={{flexDirection: 'column', color: 'rgb(72,72,72)'}}>
                 <p style={{fontWeight: 'bold', color: 'rgb(17,17,17)'}}>LANGUAGES</p>
                 <p>Javascript (ES6)</p>
                 <p>Ruby</p>
                 <p>Python</p>
-                <p>HTML/CSS</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>SASS</p>
                 <p>SQL</p>
             </div>
             <div style={{flexDirection: 'column', color: 'rgb(72,72,72)'}}>
                 <p style={{fontWeight: 'bold', color: 'rgb(17,17,17)'}}>FRAMEWORKS</p>
                 <p>React</p>
                 <p>React Native</p>
-                <p>Rails</p>
-                <p>Gatsby</p>
-                <p>Next.js</p>
+                <p>Ruby on Rails</p>
+                <p>Node.js</p>
+                <p>Redux</p>
+                <p>MobX</p>
+                <p>Gatsby.js</p>
             </div>
             <div style={{flexDirection: 'column', color: 'rgb(72,72,72)'}}>
                 <p style={{fontWeight: 'bold', color: 'rgb(17,17,17)'}}>TOOLS</p>
-                <p>{`Git & Github`}</p>
+                <p>Git</p>
                 <p>Chrome DevTools</p>
                 <p>Postman</p>
-                <p>Postgresql</p>
+                <p>PostgreSQL</p>
                 <p>SQLite</p>
+                <p>Xcode iOS Simulator</p>
+                <p>Andriod Studio</p>
             </div>
             <div style={{flexDirection: 'column', color: 'rgb(72,72,72)'}}>
                 <p style={{fontWeight: 'bold', color: 'rgb(17,17,17)'}}>DESIGN</p>
                 <p>Marvel</p>
                 <p>Sketch</p>
                 <p>Wireframing</p>
+                <p>Photoshop</p>
             </div>            
         </div>
     </div>
