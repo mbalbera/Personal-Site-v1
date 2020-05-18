@@ -43,6 +43,7 @@ const Skills = () => (
                 <p>Sketch</p>
                 <p>Wireframing</p>
                 <p>Photoshop</p>
+                <p>Proto.io</p>
             </div>            
         </div>
     </div>
