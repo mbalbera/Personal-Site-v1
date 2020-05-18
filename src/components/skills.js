@@ -22,10 +22,10 @@ const Skills = () => (
                 <p>React</p>
                 <p>React Native</p>
                 <p>Ruby on Rails</p>
-                <p>Node.js</p>
+                <p>Node</p>
                 <p>Redux</p>
                 <p>MobX</p>
-                <p>Gatsby.js</p>
+                <p>Gatsby</p>
             </div>
             <div style={{flexDirection: 'column', color: 'rgb(72,72,72)'}}>
                 <p style={{fontWeight: 'bold', color: 'rgb(17,17,17)'}}>TOOLS</p>
